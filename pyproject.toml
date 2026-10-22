@@ -1,0 +1,14 @@
+[project]
+name = "telecom-churn-insight-assistant"
+version = "1.0.0"
+description = "Evidence-first telecom customer churn insight assistant"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.2.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
