@@ -1,0 +1,230 @@
+{
+  "customers": {
+    "CUST-1001": {
+      "id": "CUST-1001",
+      "plan": "Postpaid Rs 599",
+      "tenure_years": 4,
+      "records": [
+        {
+          "id": "TKT-5521",
+          "customer_id": "CUST-1001",
+          "type": "ticket",
+          "source_system": "ticketing",
+          "category": "network",
+          "issue_key": "dropped-calls-home-cell",
+          "status": "open",
+          "date": "2026-10-01",
+          "verified": true,
+          "text": "Dropped calls at the customer's home cell."
+        },
+        {
+          "id": "TKT-5540",
+          "customer_id": "CUST-1001",
+          "type": "ticket",
+          "source_system": "ticketing",
+          "category": "network",
+          "issue_key": "dropped-calls-home-cell",
+          "status": "open",
+          "date": "2026-10-05",
+          "verified": true,
+          "text": "Repeated dropped-call complaint from the same cell."
+        },
+        {
+          "id": "TKT-5562",
+          "customer_id": "CUST-1001",
+          "type": "ticket",
+          "source_system": "ticketing",
+          "category": "network",
+          "issue_key": "dropped-calls-home-cell",
+          "status": "open",
+          "date": "2026-10-09",
+          "verified": true,
+          "text": "Third dropped-call complaint from the same cell."
+        },
+        {
+          "id": "NOTE-77",
+          "customer_id": "CUST-1001",
+          "type": "note",
+          "source_system": "agent_notes",
+          "date": "2026-10-10",
+          "verified": false,
+          "text": "Draft agent note; not verified and must not be used."
+        },
+        {
+          "id": "USG-1001@2026-09",
+          "customer_id": "CUST-1001",
+          "type": "usage",
+          "source_system": "usage_platform",
+          "date": "2026-10-01",
+          "verified": true,
+          "month_on_month_change_percent": -35,
+          "text": "Data usage down 35% month on month."
+        }
+      ]
+    },
+    "CUST-1002": {
+      "id": "CUST-1002",
+      "plan": "Postpaid Rs 999",
+      "tenure_years": 2,
+      "records": [
+        {
+          "id": "TKT-6610",
+          "customer_id": "CUST-1002",
+          "type": "ticket",
+          "source_system": "billing_ticketing",
+          "category": "billing",
+          "issue_key": "roaming-charge",
+          "status": "resolved",
+          "date": "2026-10-02",
+          "verified": true,
+          "amount_rs": 1240,
+          "text": "Roaming charge of Rs 1,240 marked resolved."
+        },
+        {
+          "id": "CALL-8821",
+          "customer_id": "CUST-1002",
+          "type": "call",
+          "source_system": "call_center",
+          "category": "billing",
+          "issue_key": "roaming-charge",
+          "status": "disputed",
+          "date": "2026-10-12",
+          "verified": true,
+          "text": "Customer says the roaming charge is still on the bill."
+        }
+      ]
+    },
+    "CUST-1003": {
+      "id": "CUST-1003",
+      "plan": "Prepaid Rs 299",
+      "tenure_years": 1,
+      "records": [
+        {
+          "id": "TKT-7701",
+          "customer_id": "CUST-1003",
+          "type": "ticket",
+          "source_system": "ticketing",
+          "category": "network",
+          "issue_key": "slow-data",
+          "status": "closed",
+          "date": "2026-10-06",
+          "verified": true,
+          "service_experience": true,
+          "text": "One slow-data complaint; usage is stable."
+        },
+        {
+          "id": "USG-1003@2026-09",
+          "customer_id": "CUST-1003",
+          "type": "usage",
+          "source_system": "usage_platform",
+          "date": "2026-10-01",
+          "verified": true,
+          "month_on_month_change_percent": 0,
+          "text": "Usage stable month on month."
+        }
+      ]
+    },
+    "CUST-1004": {
+      "id": "CUST-1004",
+      "plan": "Postpaid family Rs 1,499",
+      "tenure_years": 6,
+      "records": [
+        {
+          "id": "CALL-9034",
+          "customer_id": "CUST-1004",
+          "type": "call",
+          "source_system": "call_center",
+          "category": "retention",
+          "issue_key": "port-out-interest",
+          "status": "open",
+          "date": "2026-10-11",
+          "verified": true,
+          "competitor_mention": true,
+          "text": "Customer mentioned a competitor and asked about porting out."
+        }
+      ]
+    },
+    "CUST-1005": {
+      "id": "CUST-1005",
+      "plan": "Postpaid Rs 799",
+      "tenure_years": 3,
+      "records": [
+        {
+          "id": "PLAN-1005",
+          "customer_id": "CUST-1005",
+          "type": "plan",
+          "source_system": "crm",
+          "date": "2026-10-01",
+          "verified": true,
+          "text": "Plan metadata only; no interactions in the last 90 days."
+        }
+      ]
+    },
+    "CUST-2001": {
+      "id": "CUST-2001",
+      "plan": "Postpaid Rs 499",
+      "tenure_years": 1,
+      "records": [
+        {
+          "id": "TKT-8801",
+          "customer_id": "CUST-2001",
+          "type": "ticket",
+          "source_system": "ticketing",
+          "category": "network",
+          "issue_key": "intermittent-data",
+          "status": "closed",
+          "date": "2026-10-08",
+          "verified": true,
+          "service_experience": true,
+          "text": "One verified intermittent-data complaint; no repeat report is recorded."
+        },
+        {
+          "id": "USG-2001@2026-09",
+          "customer_id": "CUST-2001",
+          "type": "usage",
+          "source_system": "usage_platform",
+          "date": "2026-10-01",
+          "verified": true,
+          "month_on_month_change_percent": -8,
+          "text": "Data usage down 8% month on month."
+        }
+      ]
+    }
+  },
+  "policy_documents": [
+    {
+      "id": "RET-POL@v1",
+      "type": "policy",
+      "source_system": "retention_policy",
+      "verified": true,
+      "max_bill_credit_rs": 500,
+      "max_discount_percent": 20,
+      "max_discount_months": 3,
+      "text": "A bill credit may be up to Rs 500; a plan discount may be up to 20% for at most 3 months. Anything above those limits requires a supervisor."
+    },
+    {
+      "id": "NET-ESC@v1",
+      "type": "policy",
+      "source_system": "network_policy",
+      "verified": true,
+      "network_complaint_threshold": 3,
+      "text": "Raise a network escalation for 3 or more coverage complaints from one location in 30 days."
+    },
+    {
+      "id": "BILL-POL@v1",
+      "type": "policy",
+      "source_system": "billing_policy",
+      "verified": true,
+      "text": "Disputed charges are corrected after verification; correction is confirmed to the customer within 48 hours."
+    },
+    {
+      "id": "OFFER-FEST",
+      "type": "offer",
+      "source_system": "retention_campaigns",
+      "verified": true,
+      "valid_from": "2026-09-25",
+      "valid_to": "2026-10-08",
+      "text": "Festive retention offer; expired before the assignment session date."
+    }
+  ]
+}
